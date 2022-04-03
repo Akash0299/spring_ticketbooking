@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:lightyellow;
+	border:1px solid black;
+}
+
+h2{
+	color:white;
+	text-shadow: 2px 1px 3px red;
+}
+
+input[type="submit"]{
+    border-radius: 2px;
+} 
+
+table,th,td{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+table{
+	text-align:center;
+}
+th,td{
+		padding:5px 5px 5px 5px;
+}

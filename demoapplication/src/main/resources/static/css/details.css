@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+body{
+	background-color:lightyellow;
+	border:1px solid black;
+}
+h2{
+	color:white;
+	text-shadow: 2px 1px 3px red;
+}
+form  { 
+    display: table;
+    margin-left: 25%;
+}
+p     { display: table-row;  }
+label { display: table-cell; padding:5px 5px 5px 5px;}
+input#add,input#edit,input#delete{
+    border-radius: 2px;
+    margin-left:70%;
+}
