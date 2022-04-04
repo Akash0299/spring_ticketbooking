@@ -86,8 +86,8 @@ public class WelcomeController {
 		Member m = ms.getMember(name);
 		if(m.equals(null)) {
 			mv = new ModelAndView("error");
-		}else if(m.getUname().equals(name)) {
-			if(m.getPswd().equals(pass)){
+		}else if(m.getUsername().equals(name)) {
+			if(m.getPassword().equals(pass)){
 				mv = new ModelAndView("loginsuccess");
 			}else {
 				mv = new ModelAndView("error");
